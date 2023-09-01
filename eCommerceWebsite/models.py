@@ -1,4 +1,4 @@
-from __init__ import login_manager, db
+from eCommerceWebsite import login_manager, db
 from flask_login import UserMixin
 
 @login_manager.user_loader
